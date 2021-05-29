@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica Neue;
+    background-color: lightyellow;
+    color: #000000;
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, 800px) 1fr
+}
+
+h1 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+h2 {
+    font-size: x-large;
+    text-align: center;
+}
+
+section {
+    padding: 0em 0em 0em 0em;
+}
+
+nav {
+    display: inline-block;
+    padding: 0px 0 0px 0;
+    margin: 0 auto;
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav p {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+address {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    color: #a3a3a3;
+    text-align: center;
+}
+
+#top_nav_bar {
+    margin: 0 auto;
+    width: 60%;
+}
+
+#nav {
+    position: absolute;
+    left: 0px;
+    height: 40px;
+    background-color: #2C64B4;
+    width: 100%;
+    text-align: center;
+}
+
+#myName {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.5em;
+    align-content: center;
+}
+
+#title {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15vw;
+}
+
+#email {
+    padding: 0vw 2vw;
+}
+
+#linkedin {
+    padding: 0vw 2vw;
+}
+
+.education {
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr minmax(300px, 1000px) 1fr
+}
